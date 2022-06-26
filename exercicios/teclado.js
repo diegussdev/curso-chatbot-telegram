@@ -26,15 +26,24 @@ bot.hears(['Coca', 'Pepsi'], async ctx => {
 })
 
 bot.hears('🐮 Vaca', ctx => {
-    ctx.reply('É a minha predileta também');
+    ctx.reply(
+        'É a minha predileta também',
+        Markup.removeKeyboard()
+    );
 });
 
 bot.hears('🍄 Eu sou vegetariano', ctx => {
-    ctx.reply('Parabéns! Mas eu ainda como carne.');
+    ctx.reply(
+        'Parabéns! Mas eu ainda como carne.',
+        Markup.removeKeyboard()
+    );
 });
 
 bot.on('text', ctx => {
-    ctx.reply('Legal!');
+    ctx.reply(
+        'Legal!',
+        Markup.removeKeyboard()
+    );
 });
 
 bot.startPolling();
