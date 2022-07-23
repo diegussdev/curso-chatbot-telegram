@@ -4,7 +4,7 @@
       "id": 1,
       "descricao": "Assistir Aula 01",
       "dt_previsao": "2022-07-24",
-      "dt_conclusao": "2022-07-23",
+      "dt_conclusao": null,
       "observacao": "Realizar atividades aula 01\n---\nNova obs\n---\nMais uma\n---\nTeste"
     },
     {
@@ -13,27 +13,6 @@
       "dt_previsao": "2022-07-23",
       "dt_conclusao": null,
       "observacao": "Realizar atividades aula 02"
-    },
-    {
-      "descricao": "/amanhã",
-      "dt_previsao": "2022-07-24",
-      "dt_conclusao": null,
-      "observacao": null,
-      "id": 2
-    },
-    {
-      "descricao": "/amanhã",
-      "dt_previsao": "2022-07-23",
-      "dt_conclusao": null,
-      "observacao": null,
-      "id": 3
-    },
-    {
-      "descricao": "Hj",
-      "dt_previsao": "2022-07-24",
-      "dt_conclusao": null,
-      "observacao": null,
-      "id": 4
     }
   ]
 }
